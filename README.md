@@ -16,6 +16,9 @@ In your terminal run the following commands:
 ### Running tests
 `npm test test/chrono-test.js`
 
+### Sample Solutions
+Can be found in lib/chrono-solutions.js
+
 
 
 
