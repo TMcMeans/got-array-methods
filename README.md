@@ -17,7 +17,8 @@ In your terminal run the following commands:
 `npm test test/chrono-test.js`
 
 ### Sample Solutions
-Can be found in lib/chrono-solutions.js
+Can be found in:
+`lib/chrono-solutions.js`
 
 
 
