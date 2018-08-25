@@ -4,7 +4,7 @@ const chronoMethods = require('../lib/chrono')
 
 describe('Answers to Chrono Trigger Problem set', () => {
   
-  it('should return an array of all Chrono Trigger characters names', () => {
+  it.skip('should return an array of all Chrono Trigger characters names', () => {
     const characters = chronoMethods.getCharacterNames();
 
     expect(characters).to.deep.equal([ 
@@ -18,7 +18,7 @@ describe('Answers to Chrono Trigger Problem set', () => {
     ]);
   });
 
-  it('should return an array of the names of all Chrono Trigger characters that can die', () => {
+  it.skip('should return an array of the names of all Chrono Trigger characters that can die', () => {
     const canDie = chronoMethods.getCanDie();
 
     expect(canDie).to.deep.equal([
@@ -27,7 +27,7 @@ describe('Answers to Chrono Trigger Problem set', () => {
     ]);
   });
 
-  it('should return an array of all Ayla\'s Single, Double, and Triple techs', () => {
+  it.skip('should return an array of all Ayla\'s Single, Double, and Triple techs', () => {
     const aylasTechs = chronoMethods.getAylasTechs();
 
     expect(aylasTechs).to.deep.equal([ 
@@ -63,7 +63,7 @@ describe('Answers to Chrono Trigger Problem set', () => {
     ]);
   });
 
-  it('should return an array of all Triple Techs without duplicates', () => {
+  it.skip('should return an array of all Triple Techs without duplicates', () => {
     const tripleTechs = chronoMethods.getTripleTechs();
 
     expect(tripleTechs).to.deep.equal([ 
@@ -85,13 +85,13 @@ describe('Answers to Chrono Trigger Problem set', () => {
     ]);
   });
 
-  it('should return a number of total unique roles in the game', () => {
+  it.skip('should return a number of total unique roles in the game', () => {
     const totalRoles = chronoMethods.getUniqueRoleTotal();
 
     expect(totalRoles).to.equal(4);
   });
 
-  it('should return an array of objects containing character names and their era', () => {
+  it.skip('should return an array of objects containing character names and their era', () => {
     const charEraObject = chronoMethods.getCharEraObject();
 
     expect(charEraObject).to.deep.equal([ 
@@ -105,19 +105,19 @@ describe('Answers to Chrono Trigger Problem set', () => {
     ]);
   });
 
-  it('should return an object with the name of the character with the most Triple Techs and their total number of Triple Techs', () => {
+  it.skip('should return an object with the name of the character with the most Triple Techs and their total number of Triple Techs', () => {
     const mostTripleTechChar = chronoMethods.getMostTripleTechs();
 
     expect(mostTripleTechChar).to.deep.equal({name: 'Crono', tripleTechs: 10});
   });
 
-  it('should return a string of the name of the character from the latest era', () => {
+  it.skip('should return a string of the name of the character from the latest era', () => {
     const latestCharName = chronoMethods.getLatestCharName();
 
     expect(latestCharName).to.equal('Robo');
   });
 
-  it('should return an array of names of characters that have at least three roles and one of them is "physical"', () => {
+  it.skip('should return an array of names of characters that have at least three roles and one of them is "physical"', () => {
     const threeRolesPhysical = chronoMethods.getThreeRolesPhysical();
 
     expect(threeRolesPhysical).to.deep.equal([
